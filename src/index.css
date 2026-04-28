@@ -1923,6 +1923,7 @@ input, textarea, select, button {
   padding: 100px 0 80px;
 }
 
+.hero h1.hero-mask-wordmark,
 .hero-mask-wordmark {
   font-family: 'Cormorant Garamond', serif;
   font-weight: 700;
