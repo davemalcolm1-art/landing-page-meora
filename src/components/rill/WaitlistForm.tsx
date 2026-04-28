@@ -45,6 +45,7 @@ const WaitlistForm = ({ source, variant = "dark" }: Props) => {
   return (
     <form className={`waitlist-form waitlist-form--${variant}`} onSubmit={onSubmit} noValidate>
       <input
+        id={`waitlist-email-${source}`}
         type="email"
         required
         placeholder="your@email.com"
