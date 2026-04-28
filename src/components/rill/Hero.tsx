@@ -1,43 +1,39 @@
-import { useQuiz } from "./quizContext";
+import WaitlistForm from "./WaitlistForm";
 
 const Hero = () => {
-  const { open } = useQuiz();
   return (
-    <section className="hero">
-      <img
-        className="hero-bg-img"
-        src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1920&q=80"
-        alt=""
-        aria-hidden="true"
-      />
-      <div className="hero-overlay"></div>
+    <section className="hero hero--waitlist" id="top">
+      <div className="hero-video-placeholder" aria-hidden="true">
+        <div className="video-play-indicator" />
+      </div>
 
-      <div className="hero-content">
-        <div className="hero-eyebrow reveal">
+      <div className="hero-waitlist-inner">
+        <h1 className="hero-mask-wordmark" aria-label="MEORA">MEORA</h1>
+
+        <div className="hero-eyebrow hero-eyebrow--center reveal">
           <div className="hero-eyebrow-line"></div>
-          <span>AHPRA-Registered Doctors · TGA-Compliant · Australia-Wide</span>
+          <span>Australian Longevity Medicine · Coming Soon</span>
+          <div className="hero-eyebrow-line"></div>
         </div>
-        <h1 className="reveal reveal-delay-1">
+
+        <h2 className="hero-tagline reveal reveal-delay-1">
           Built by science.<br /><em>Made for ME.</em>
-        </h1>
-        <p className="hero-sub reveal reveal-delay-2">
+        </h2>
+
+        <p className="hero-sub hero-sub--center reveal reveal-delay-2">
           Doctor-prescribed peptide protocols for energy, recovery, and long-term health. Available anywhere in Australia.
         </p>
-        <div className="hero-actions reveal reveal-delay-3">
-          <button className="btn-primary" onClick={open}>
-            Start your assessment
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-              <path d="M2 7h10M8 3l4 4-4 4" stroke="currentColor" strokeWidth="1.5" />
-            </svg>
-          </button>
-          <a href="#protocols" className="btn-ghost">Explore protocols</a>
+
+        <div className="hero-waitlist reveal reveal-delay-3" id="waitlist">
+          <div className="waitlist-label">Be the first to access Meora</div>
+          <WaitlistForm source="hero" variant="dark" />
         </div>
       </div>
 
       <div className="hero-bottom">
         <div className="hero-scroll-hint">
           <div className="scroll-line"></div>
-          Scroll to explore
+          Scroll
         </div>
       </div>
     </section>
