@@ -52,6 +52,7 @@ export type Database = {
           consent_timestamp: string | null
           created_at: string
           email: string
+          first_name: string | null
           id: string
           source: string
         }
@@ -59,6 +60,7 @@ export type Database = {
           consent_timestamp?: string | null
           created_at?: string
           email: string
+          first_name?: string | null
           id?: string
           source?: string
         }
@@ -66,6 +68,7 @@ export type Database = {
           consent_timestamp?: string | null
           created_at?: string
           email?: string
+          first_name?: string | null
           id?: string
           source?: string
         }

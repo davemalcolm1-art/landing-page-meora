@@ -41,6 +41,7 @@ const WaitlistForm = ({ source, variant = "dark" }: Props) => {
       .insert({
         email: trimmed,
         source,
+        first_name: trimmedName,
         consent_timestamp: new Date().toISOString(),
       });
     if (dbErr && dbErr.code !== "23505") {
