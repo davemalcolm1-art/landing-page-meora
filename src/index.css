@@ -146,6 +146,7 @@ nav.rill-nav.scrolled {
   display: flex; flex-direction: column;
   justify-content: flex-end;
   overflow: hidden;
+  padding-top: 80px;
 }
 .hero-video-placeholder {
   position: absolute; inset: 0;
@@ -2330,9 +2331,10 @@ input, textarea, select, button {
   nav.rill-nav.scrolled { padding: 14px 20px; }
   .nav-logo { font-size: 18px; letter-spacing: 0.2em; }
   .nav-cta--pill { padding: 10px 16px; font-size: 10px; }
+  .nav-cta { display: none; }
 
   .hero-waitlist-inner { padding: 100px 0 60px; }
-  .hero-mask-wordmark { letter-spacing: 0.08em; margin-bottom: 20px; }
+  .hero-mask-wordmark { letter-spacing: 0.08em; margin-top: 20px; margin-bottom: 20px; }
   .hero-eyebrow--center span { font-size: 9px; letter-spacing: 0.2em; }
   .hero-eyebrow--center .hero-eyebrow-line { width: 20px; }
 
