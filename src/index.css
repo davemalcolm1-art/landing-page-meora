@@ -2066,6 +2066,147 @@ input, textarea, select, button {
   background: rgba(255, 80, 3, 0.05);
 }
 
+/* Stacked waitlist form (with first name + consent) */
+.waitlist-form-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+  max-width: 460px;
+}
+.waitlist-form-stack input[type="text"],
+.waitlist-form-stack input[type="email"] {
+  width: 100%;
+  background: rgba(0, 10, 25, 0.55);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(245, 240, 232, 0.18);
+  border-radius: var(--radius-pill) !important;
+  padding: 14px 22px;
+  color: var(--cream);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  outline: none;
+  cursor: none;
+  transition: border-color 0.2s ease;
+}
+.waitlist-form-stack input[type="text"]:focus,
+.waitlist-form-stack input[type="email"]:focus {
+  border-color: var(--orange);
+}
+.waitlist-form-stack input::placeholder {
+  color: var(--text-dimmer);
+  letter-spacing: 0.02em;
+}
+.waitlist-form-stack--light input[type="text"],
+.waitlist-form-stack--light input[type="email"] {
+  background: rgba(255, 255, 255, 0.6);
+  border-color: rgba(0, 24, 48, 0.12);
+  color: var(--text-dark);
+}
+.waitlist-form-stack--light input::placeholder { color: rgba(0,24,48,0.4); }
+
+.waitlist-consent {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 4px 8px 0;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: var(--text-dim);
+  text-align: left;
+  cursor: none;
+}
+.waitlist-consent input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  border: 1px solid rgba(245, 240, 232, 0.35);
+  border-radius: 3px;
+  background: transparent;
+  cursor: none;
+  flex-shrink: 0;
+  position: relative;
+  transition: all 0.2s ease;
+}
+.waitlist-consent input[type="checkbox"]:checked {
+  background: var(--orange);
+  border-color: var(--orange);
+}
+.waitlist-consent input[type="checkbox"]:checked::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 1px;
+  width: 4px;
+  height: 8px;
+  border: solid var(--deep-navy);
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+.waitlist-consent a {
+  color: var(--orange);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.waitlist-form-stack--light .waitlist-consent {
+  color: rgba(0, 24, 48, 0.7);
+}
+.waitlist-form-stack--light .waitlist-consent input[type="checkbox"] {
+  border-color: rgba(0, 24, 48, 0.3);
+}
+
+.waitlist-form-stack button {
+  background: var(--orange);
+  color: var(--deep-navy);
+  border: none;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 16px 22px;
+  border-radius: var(--radius-pill) !important;
+  cursor: none;
+  transition: all 0.25s ease;
+  width: 100%;
+  margin-top: 4px;
+}
+.waitlist-form-stack button:hover:not(:disabled) {
+  background: var(--amber);
+  box-shadow: 0 0 24px rgba(255, 80, 3, 0.4);
+}
+.waitlist-form-stack button:disabled { opacity: 0.6; }
+
+.waitlist-error-stack {
+  font-family: 'DM Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: #FF8E00;
+  text-align: center;
+}
+
+/* Override success message styling per spec:
+   Cormorant Garamond italic, #FF5003 */
+.waitlist-success {
+  font-family: 'Cormorant Garamond', 'Times New Roman', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  color: #FF5003;
+  padding: 20px 28px;
+  border: 1px solid rgba(255, 80, 3, 0.3);
+  border-radius: 14px;
+  background: rgba(255, 80, 3, 0.04);
+  text-align: center;
+}
+
 /* PILLARS section */
 .pillars-section {
   background: var(--light-bg);
