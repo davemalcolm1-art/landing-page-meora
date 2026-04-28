@@ -2,7 +2,7 @@ const pillars = [
   {
     n: "01",
     title: "Clinical Protocols",
-    body: "Evidence-based peptide therapy programs designed and overseen by AHPRA-registered physicians, personalised to your biology and health goals.",
+    body: "Evidence-based therapy programs designed and overseen by AHPRA-registered physicians, personalised to your biology and health goals.",
   },
   {
     n: "02",
