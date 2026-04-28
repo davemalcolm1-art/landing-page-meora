@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
 
 const Nav = () => {
   const [scrolled, setScrolled] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 60);
@@ -9,9 +12,27 @@ const Nav = () => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
+  const focusWaitlist = () => {
+    const section = document.getElementById("waitlist");
+    const input = document.getElementById("waitlist-email-hero") as HTMLInputElement | null;
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "center" });
+    }
+    // Focus after scroll begins so users get clear feedback
+    window.setTimeout(() => {
+      input?.focus({ preventScroll: true });
+    }, 600);
+  };
+
   const scrollToWaitlist = (e: React.MouseEvent) => {
     e.preventDefault();
-    document.getElementById("waitlist")?.scrollIntoView({ behavior: "smooth", block: "center" });
+    if (location.pathname !== "/") {
+      navigate("/#waitlist");
+      // Wait for home to mount, then scroll + focus
+      window.setTimeout(focusWaitlist, 250);
+      return;
+    }
+    focusWaitlist();
   };
 
   return (
