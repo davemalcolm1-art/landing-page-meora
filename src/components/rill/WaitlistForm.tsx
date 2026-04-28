@@ -55,7 +55,7 @@ const WaitlistForm = ({ source, variant = "dark" }: Props) => {
         disabled={status === "loading"}
       />
       <button type="submit" disabled={status === "loading"}>
-        {status === "loading" ? "..." : "Start Assessment →"}
+        {status === "loading" ? "..." : "Join the Waitlist →"}
       </button>
       {status === "error" && <span className="waitlist-error">{error}</span>}
     </form>

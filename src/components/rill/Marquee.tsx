@@ -1,7 +1,6 @@
 const items = [
   "AHPRA-Registered Physicians",
   "TGA-Licensed Pharmacy",
-  "Peptide Therapy",
   "GH-Axis Optimisation",
   "Metabolic Health",
   "Cold-Chain Delivery",

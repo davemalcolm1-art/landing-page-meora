@@ -21,7 +21,7 @@ const Hero = () => {
         </h2>
 
         <p className="hero-sub hero-sub--center reveal reveal-delay-2">
-          Doctor-prescribed peptide protocols for energy, recovery, and long-term health. Available anywhere in Australia.
+          Doctor-prescribed protocols for energy, recovery, and long-term health. Available anywhere in Australia.
         </p>
 
         <div className="hero-waitlist reveal reveal-delay-3" id="waitlist">
