@@ -14,6 +14,39 @@ export type Database = {
   }
   public: {
     Tables: {
+      leads: {
+        Row: {
+          consent: boolean
+          consent_timestamp: string | null
+          created_at: string
+          email: string
+          first_name: string
+          id: string
+          lead_source: string
+          lifecycle_stage: string
+        }
+        Insert: {
+          consent?: boolean
+          consent_timestamp?: string | null
+          created_at?: string
+          email: string
+          first_name: string
+          id?: string
+          lead_source?: string
+          lifecycle_stage?: string
+        }
+        Update: {
+          consent?: boolean
+          consent_timestamp?: string | null
+          created_at?: string
+          email?: string
+          first_name?: string
+          id?: string
+          lead_source?: string
+          lifecycle_stage?: string
+        }
+        Relationships: []
+      }
       waitlist_signups: {
         Row: {
           created_at: string
