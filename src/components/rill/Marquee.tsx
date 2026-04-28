@@ -1,10 +1,12 @@
 const items = [
-  "AHPRA-Registered Practitioners",
-  "TGA-Compliant Compounding",
-  "Australia-Wide Telehealth",
-  "Quarterly Blood Monitoring",
+  "AHPRA-Registered Physicians",
+  "TGA-Licensed Pharmacy",
+  "Peptide Therapy",
+  "GH-Axis Optimisation",
+  "Metabolic Health",
   "Cold-Chain Delivery",
-  "A Protocol. Not a Trend.",
+  "Telehealth, Nationwide",
+  "Personalised Blood Panels",
 ];
 
 const Marquee = () => {
