@@ -30,6 +30,13 @@ const Hero = () => {
         </div>
       </div>
 
+      <div className="hero-bottom" aria-hidden="true">
+        <div className="hero-scroll-hint">
+          <span>Scroll</span>
+          <div className="scroll-line"></div>
+        </div>
+      </div>
+
     </section>
   );
 };
