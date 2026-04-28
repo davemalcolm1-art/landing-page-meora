@@ -9,30 +9,28 @@ const Privacy = () => {
           <Link to="/" className="legal-back">← Back to home</Link>
           <h1 className="legal-title">Privacy Policy</h1>
           <p className="legal-meta">
-            <strong>Effective Date:</strong> [INSERT DATE]<br />
-            <strong>Last Updated:</strong> [INSERT DATE]
+            <strong>Effective Date:</strong> 28 April 2026<br />
+            <strong>Last Updated:</strong> 28 April 2026
           </p>
 
           <section>
             <h2>1. Introduction</h2>
-            <p>Your privacy matters to us. This Privacy Policy explains how MEORA ("we," "us," or "our") collects, uses, stores, and discloses your personal information when you access our website at [INSERT DOMAIN] ("Website") or use any of our services.</p>
+            <p>Your privacy matters to us. This Privacy Policy explains how MEORA ("we," "us," or "our") collects, uses, stores, and discloses your personal information when you access our website at meora.me ("Website") or use any of our services.</p>
             <p>We are committed to complying with the <em>Privacy Act 1988</em> (Cth), the Australian Privacy Principles (APPs), and, where applicable, relevant state health privacy legislation. Because our services involve health information, we take particular care in how we handle sensitive data.</p>
-            <p>By using our Website or services, you agree to the collection and use of your information as described in this policy. If you do not agree, please do not use our Website.</p>
+            <p>By using our Website or services, you agree to the collection and use of your information as described in this policy. If you do not agree, please do not use our Website. By continuing to use our Website, you consent to our use of cookies as described in Section 10.</p>
             <blockquote>
-              <strong>Note on our business structure:</strong> MEORA is currently operating as an unregistered business. Upon incorporation, this policy will be updated to reflect our registered entity name and ABN. All obligations under the Privacy Act 1988 (Cth) apply to our operations regardless of registration status.
+              <strong>Note on our business structure:</strong> MEORA is currently operating as a sole trader pending incorporation. This policy will be updated upon registration to reflect the formal entity name and ABN. All obligations under the Privacy Act 1988 (Cth) apply to our operations regardless of registration status.
             </blockquote>
           </section>
 
           <section>
             <h2>2. Who We Are</h2>
             <p>MEORA is an Australian telehealth platform that connects patients with AHPRA-registered medical practitioners for consultations and clinical oversight. We do not manufacture or supply therapeutic goods directly — we facilitate access to regulated healthcare services.</p>
-            <p>For privacy enquiries, please contact us at:</p>
-            <p><strong>Privacy Officer</strong><br />MEORA<br />[INSERT ADDRESS UPON INCORPORATION]<br />Email: privacy@[INSERT DOMAIN]</p>
+            <p><strong>Privacy Officer</strong><br />MEORA<br />Rose Bay NSW 2029, Australia<br />Email: me@meora.me</p>
           </section>
 
           <section>
             <h2>3. What Personal Information We Collect</h2>
-            <p>Depending on how you interact with us, we may collect the following categories of personal information:</p>
             <h3>Contact and Identity Information</h3>
             <ul><li>Full name, date of birth, email address, phone number, and postal address</li></ul>
             <h3>Account and Transaction Information</h3>
@@ -58,17 +56,16 @@ const Privacy = () => {
               <li>From third-party pathology providers (where you have been referred for testing)</li>
               <li>Automatically via cookies, analytics, and similar technologies when you use our Website</li>
             </ul>
-            <p>Where information is collected from a third party, we will take reasonable steps to ensure you are notified of that collection.</p>
           </section>
 
           <section>
             <h2>5. Why We Collect and Use Your Information</h2>
-            <p>We use your personal information for the following purposes:</p>
             <h3>Providing Services</h3>
             <ul>
               <li>Processing and managing your consultations and clinical referrals</li>
               <li>Facilitating communication between you and AHPRA-registered practitioners</li>
               <li>Coordinating with licensed compounding pharmacies for prescription fulfilment where directed by your treating practitioner</li>
+              <li>By booking a telehealth consultation through our platform, you consent to the collection and use of your health information for the purposes of that consultation and ongoing clinical management.</li>
             </ul>
             <h3>Clinical Safety and Governance</h3>
             <ul>
@@ -87,7 +84,6 @@ const Privacy = () => {
             <ul><li>Analysing de-identified, aggregate data to improve our platform and services</li></ul>
             <h3>Legal Compliance</h3>
             <ul><li>Meeting our obligations under the Privacy Act, TGA regulations, AHPRA guidelines, and any other applicable laws</li></ul>
-            <p>We will not use or disclose your personal information for any purpose not listed here without your consent, unless required by law.</p>
           </section>
 
           <section>
@@ -99,27 +95,26 @@ const Privacy = () => {
               <li>To lessen or prevent a serious threat to your life, health, or safety</li>
               <li>As required or authorised by law</li>
             </ul>
-            <p>Your health information is accessible only to those directly involved in your care (including your treating AHPRA-registered practitioner) and to staff with a direct operational need.</p>
           </section>
 
           <section>
             <h2>7. Disclosure of Your Information</h2>
             <p>We do not sell your personal information. We may disclose it to:</p>
             <ul>
-              <li><strong>AHPRA-registered practitioners</strong> facilitating your consultations</li>
-              <li><strong>TGA-licensed compounding pharmacies</strong> for prescription fulfilment, where directed by your treating practitioner</li>
-              <li><strong>Pathology and diagnostic providers</strong> where clinical referrals are made</li>
-              <li><strong>Cloud and technology service providers</strong> supporting our platform infrastructure</li>
-              <li><strong>Payment processors</strong> (such as Stripe) for transaction handling</li>
-              <li><strong>Professional advisors</strong> including legal and accounting professionals, under confidentiality obligations</li>
-              <li><strong>Regulatory authorities</strong> where required or authorised by law</li>
+              <li>AHPRA-registered practitioners facilitating your consultations</li>
+              <li>TGA-licensed compounding pharmacies for prescription fulfilment</li>
+              <li>Pathology and diagnostic providers where clinical referrals are made</li>
+              <li>Cloud and technology service providers supporting our platform</li>
+              <li>Payment processors (such as Stripe) for transaction handling</li>
+              <li>Professional advisors under confidentiality obligations</li>
+              <li>Regulatory authorities where required by law</li>
             </ul>
-            <p>Where we disclose personal information to overseas service providers (for example, cloud storage hosted in the United States or Europe), we take reasonable steps to ensure those providers maintain privacy protections consistent with the APPs. You acknowledge that APP 8.1 may not apply to such disclosures, and that you may not be able to seek redress under the Privacy Act if an overseas provider breaches applicable principles.</p>
+            <p>Where we disclose personal information to overseas service providers, we take reasonable steps to ensure those providers maintain privacy protections consistent with the APPs. You acknowledge that APP 8.1 may not apply to such disclosures.</p>
           </section>
 
           <section>
             <h2>8. Data Security</h2>
-            <p>We implement appropriate technical and organisational measures to protect your personal information against unauthorised access, disclosure, alteration, or destruction. These include:</p>
+            <p>We implement appropriate technical and organisational measures including:</p>
             <ul>
               <li>Encrypted data transmission (TLS/HTTPS)</li>
               <li>Access controls limiting data to authorised personnel only</li>
@@ -132,50 +127,44 @@ const Privacy = () => {
           <section>
             <h2>9. Data Retention</h2>
             <p>We retain your personal information for as long as necessary to fulfil the purposes described in this policy, or as required by law. Health records are retained in accordance with applicable state and territory legislation (typically a minimum of seven years for adult records, or until a minor turns 25).</p>
-            <p>When personal information is no longer required, we will securely delete or de-identify it.</p>
           </section>
 
           <section>
             <h2>10. Cookies and Tracking Technologies</h2>
-            <p>We use cookies and similar technologies to understand how visitors use our Website and to improve your experience. You can manage cookie preferences through your browser settings. Disabling cookies may affect some Website functionality.</p>
-            <p>We may use analytics tools (such as Google Analytics) that process de-identified usage data. These tools operate under their own privacy policies.</p>
+            <p>We use cookies and similar technologies to understand how visitors use our Website and to improve your experience. By continuing to use our Website, you consent to our use of cookies. You can manage cookie preferences through your browser settings. Disabling cookies may affect some Website functionality.</p>
+            <p>We may use analytics tools (such as Google Analytics) that process de-identified usage data.</p>
           </section>
 
           <section>
             <h2>11. Marketing Communications</h2>
-            <p>We may send you marketing communications about our services where you have opted in to receive them. You can opt out at any time by:</p>
+            <p>You can opt out at any time by:</p>
             <ul>
               <li>Clicking the unsubscribe link in any email we send</li>
-              <li>Contacting us at privacy@[INSERT DOMAIN]</li>
+              <li>Replying STOP to any SMS we send</li>
+              <li>Contacting us at me@meora.me</li>
             </ul>
-            <p>Opting out of marketing does not affect service-related communications necessary for your care or account management.</p>
+            <p>Opting out of marketing does not affect service-related communications necessary for your care.</p>
           </section>
 
           <section>
             <h2>12. Accessing and Correcting Your Information</h2>
-            <p>You have the right to request access to the personal information we hold about you, and to request corrections where that information is inaccurate, out of date, or incomplete.</p>
-            <p>To make a request, contact our Privacy Officer at privacy@[INSERT DOMAIN]. We may ask you to verify your identity before processing your request. We will respond within a reasonable timeframe (typically 30 days).</p>
-            <p>In limited circumstances, we may decline a request for access or correction, in which case we will provide written reasons.</p>
+            <p>To request access to or correction of your personal information, contact our Privacy Officer at me@meora.me. We will respond within 30 days.</p>
           </section>
 
           <section>
             <h2>13. Complaints</h2>
-            <p>If you believe we have mishandled your personal information, we encourage you to contact our Privacy Officer in the first instance at privacy@[INSERT DOMAIN].</p>
-            <p>We will acknowledge your complaint promptly and aim to resolve it within 30 days.</p>
-            <p>If you are not satisfied with our response, you may lodge a complaint with the <strong>Office of the Australian Information Commissioner (OAIC)</strong>:</p>
-            <p><strong>Office of the Australian Information Commissioner</strong><br />GPO Box 5218, Sydney NSW 2001<br />Telephone: 1300 363 992<br />Website: <a href="https://www.oaic.gov.au" target="_blank" rel="noopener noreferrer">https://www.oaic.gov.au</a></p>
+            <p>Contact our Privacy Officer at me@meora.me in the first instance. If unsatisfied, you may lodge a complaint with the Office of the Australian Information Commissioner (OAIC):</p>
+            <p>GPO Box 5218, Sydney NSW 2001<br />Telephone: 1300 363 992<br />Website: <a href="https://www.oaic.gov.au" target="_blank" rel="noopener noreferrer">https://www.oaic.gov.au</a></p>
           </section>
 
           <section>
             <h2>14. Changes to This Policy</h2>
-            <p>We may update this Privacy Policy from time to time. Where changes are material, we will notify you via email or a prominent notice on our Website. The effective date at the top of this page will always reflect the most recent version.</p>
-            <p>We encourage you to review this policy periodically.</p>
+            <p>We may update this Privacy Policy from time to time. The effective date at the top of this page reflects the most recent version.</p>
           </section>
 
           <section>
             <h2>15. Contact Us</h2>
-            <p>For any privacy-related questions or requests:</p>
-            <p><strong>Privacy Officer</strong><br />MEORA<br />Email: privacy@[INSERT DOMAIN]</p>
+            <p><strong>Privacy Officer</strong><br />MEORA<br />Email: me@meora.me</p>
           </section>
 
           <p className="legal-footnote"><em>This Privacy Policy was prepared in accordance with the Privacy Act 1988 (Cth), the Australian Privacy Principles, and relevant AHPRA guidelines applicable to telehealth services.</em></p>
