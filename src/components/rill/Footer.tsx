@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 const Footer = () => (
   <footer className="rill-footer rill-footer--minimal">
     <div className="footer-min-top">
@@ -10,7 +8,7 @@ const Footer = () => (
       Meora operates as an AHPRA-compliant telehealth service. All consultations are conducted by AHPRA-registered medical practitioners. Compounded therapeutic goods are prepared by a TGA-licensed pharmacy and dispensed only on lawful prescription. This website advertises a health service, not a therapeutic good. Results vary. Not a substitute for professional medical advice.
     </div>
     <div className="footer-min-copy">
-      © 2025 Meora Health Pty Ltd · <Link to="/privacy">Privacy Policy</Link>
+      © 2025 Meora Health Pty Ltd · <a href="/privacy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
     </div>
   </footer>
 );
