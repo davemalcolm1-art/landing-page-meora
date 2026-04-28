@@ -30,12 +30,6 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="hero-bottom">
-        <div className="hero-scroll-hint">
-          <div className="scroll-line"></div>
-          Scroll
-        </div>
-      </div>
     </section>
   );
 };
