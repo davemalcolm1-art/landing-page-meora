@@ -2209,8 +2209,8 @@ input, textarea, select, button {
 
 /* ===== Legal pages (Privacy, Terms) ===== */
 .legal-page {
-  background: hsl(var(--background));
-  color: hsl(var(--foreground));
+  background: #0a0a0a;
+  color: #f5f5f5;
   padding: 120px 24px 80px;
   min-height: 100vh;
 }
@@ -2239,10 +2239,10 @@ input, textarea, select, button {
 }
 .legal-meta {
   font-size: 14px;
-  opacity: 0.65;
+  opacity: 0.7;
   margin: 0 0 48px;
   padding-bottom: 32px;
-  border-bottom: 1px solid hsl(var(--border));
+  border-bottom: 1px solid rgba(245, 245, 245, 0.15);
 }
 .legal-container section { margin: 0 0 40px; }
 .legal-container h2 {
@@ -2256,23 +2256,23 @@ input, textarea, select, button {
   font-weight: 600;
   margin: 20px 0 8px;
 }
-.legal-container p { margin: 0 0 14px; opacity: 0.85; }
+.legal-container p { margin: 0 0 14px; opacity: 0.88; }
 .legal-container ul { margin: 0 0 14px; padding-left: 22px; }
-.legal-container li { margin: 0 0 6px; opacity: 0.85; }
+.legal-container li { margin: 0 0 6px; opacity: 0.88; }
 .legal-container a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
 .legal-container blockquote {
   margin: 20px 0;
   padding: 16px 20px;
-  border-left: 2px solid hsl(var(--foreground) / 0.4);
-  background: hsl(var(--foreground) / 0.04);
+  border-left: 2px solid rgba(245, 245, 245, 0.4);
+  background: rgba(245, 245, 245, 0.05);
   font-size: 15px;
   opacity: 0.9;
 }
 .legal-footnote {
   margin-top: 48px;
   padding-top: 24px;
-  border-top: 1px solid hsl(var(--border));
+  border-top: 1px solid rgba(245, 245, 245, 0.15);
   font-size: 13px;
-  opacity: 0.6;
+  opacity: 0.65;
 }
 .footer-min-copy a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
