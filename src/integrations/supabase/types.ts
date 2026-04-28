@@ -49,18 +49,21 @@ export type Database = {
       }
       waitlist_signups: {
         Row: {
+          consent_timestamp: string | null
           created_at: string
           email: string
           id: string
           source: string
         }
         Insert: {
+          consent_timestamp?: string | null
           created_at?: string
           email: string
           id?: string
           source?: string
         }
         Update: {
+          consent_timestamp?: string | null
           created_at?: string
           email?: string
           id?: string

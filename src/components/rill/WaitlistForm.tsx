@@ -37,14 +37,11 @@ const WaitlistForm = ({ source, variant = "dark" }: Props) => {
     setStatus("loading");
     setError("");
     const { error: dbErr } = await supabase
-      .from("leads")
+      .from("waitlist_signups")
       .insert({
         email: trimmed,
-        first_name: trimmedName,
-        lead_source: "landing_page",
-        consent: true,
+        source,
         consent_timestamp: new Date().toISOString(),
-        lifecycle_stage: "subscriber",
       });
     if (dbErr && dbErr.code !== "23505") {
       console.error("Error:", dbErr);
@@ -88,21 +85,23 @@ const WaitlistForm = ({ source, variant = "dark" }: Props) => {
         aria-label="Email address"
         disabled={status === "loading"}
       />
-      <label className="waitlist-consent">
+      <div className="waitlist-consent">
         <input
           type="checkbox"
+          id={`consent-${source}`}
+          required
           checked={consent}
           onChange={(e) => setConsent(e.target.checked)}
-          disabled={status === "loading"}
         />
-        <span>
-          I agree to receive updates from Meora.{" "}
-          <a href="/privacy" target="_blank" rel="noopener noreferrer">
-            View our Privacy Policy.
+        <label htmlFor={`consent-${source}`}>
+          I agree to receive updates from Meora. View our{" "}
+          <a href="/privacy" target="_blank" rel="noreferrer">
+            Privacy Policy
           </a>
-        </span>
-      </label>
-      <button type="submit" disabled={status === "loading"}>
+          .
+        </label>
+      </div>
+      <button type="submit" disabled={status === "loading" || !consent}>
         {status === "loading" ? "..." : "Join the waitlist →"}
       </button>
       {status === "error" && <span className="waitlist-error-stack">{error}</span>}

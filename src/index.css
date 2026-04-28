@@ -2109,14 +2109,16 @@ input, textarea, select, button {
 .waitlist-consent {
   display: flex;
   align-items: flex-start;
-  gap: 10px;
+  gap: 8px;
   padding: 4px 8px 0;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 12px;
-  font-weight: 300;
-  line-height: 1.5;
-  color: var(--text-dim);
   text-align: left;
+  cursor: none;
+}
+.waitlist-consent label {
+  font-family: 'DM Mono', monospace;
+  font-size: 11px;
+  line-height: 1.6;
+  color: rgba(245, 240, 232, 0.4);
   cursor: none;
 }
 .waitlist-consent input[type="checkbox"] {
@@ -2149,12 +2151,15 @@ input, textarea, select, button {
   transform: rotate(45deg);
 }
 .waitlist-consent a {
-  color: var(--orange);
+  color: #FF5003;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
 .waitlist-form-stack--light .waitlist-consent {
   color: rgba(0, 24, 48, 0.7);
+}
+.waitlist-form-stack--light .waitlist-consent label {
+  color: rgba(0, 24, 48, 0.55);
 }
 .waitlist-form-stack--light .waitlist-consent input[type="checkbox"] {
   border-color: rgba(0, 24, 48, 0.3);
