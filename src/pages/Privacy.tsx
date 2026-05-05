@@ -10,7 +10,7 @@ const Privacy = () => {
           <h1 className="legal-title">Privacy Policy</h1>
           <p className="legal-meta">
             <strong>Effective Date:</strong> 28 April 2026<br />
-            <strong>Last Updated:</strong> 28 April 2026
+            <strong>Last Updated:</strong> 5 May 2026
           </p>
 
           <section>
@@ -18,15 +18,12 @@ const Privacy = () => {
             <p>Your privacy matters to us. This Privacy Policy explains how MEORA ("we," "us," or "our") collects, uses, stores, and discloses your personal information when you access our website at meora.me ("Website") or use any of our services.</p>
             <p>We are committed to complying with the <em>Privacy Act 1988</em> (Cth), the Australian Privacy Principles (APPs), and, where applicable, relevant state health privacy legislation. Because our services involve health information, we take particular care in how we handle sensitive data.</p>
             <p>By using our Website or services, you agree to the collection and use of your information as described in this policy. If you do not agree, please do not use our Website. By continuing to use our Website, you consent to our use of cookies as described in Section 10.</p>
-            <blockquote>
-              <strong>Note on our business structure:</strong> MEORA is currently operating as a sole trader pending incorporation. This policy will be updated upon registration to reflect the formal entity name and ABN. All obligations under the Privacy Act 1988 (Cth) apply to our operations regardless of registration status.
-            </blockquote>
           </section>
 
           <section>
             <h2>2. Who We Are</h2>
             <p>MEORA is an Australian telehealth platform that connects patients with AHPRA-registered medical practitioners for consultations and clinical oversight. We do not manufacture or supply therapeutic goods directly — we facilitate access to regulated healthcare services.</p>
-            <p><strong>Privacy Officer</strong><br />MEORA<br />Rose Bay NSW 2029, Australia<br />Email: me@meora.me</p>
+            <p><strong>Privacy Officer</strong><br />MEORA (a trading name of Aaker Industries Pty Ltd ABN 58 697 722 357)<br />Rose Bay NSW 2029, Australia<br />Email: me@meora.me</p>
           </section>
 
           <section>
@@ -164,7 +161,7 @@ const Privacy = () => {
 
           <section>
             <h2>15. Contact Us</h2>
-            <p><strong>Privacy Officer</strong><br />MEORA<br />Email: me@meora.me</p>
+            <p><strong>Privacy Officer</strong><br />MEORA (a trading name of Aaker Industries Pty Ltd ABN 58 697 722 357)<br />Rose Bay NSW 2029, Australia<br />Email: me@meora.me</p>
           </section>
 
           <p className="legal-footnote"><em>This Privacy Policy was prepared in accordance with the Privacy Act 1988 (Cth), the Australian Privacy Principles, and relevant AHPRA guidelines applicable to telehealth services.</em></p>
