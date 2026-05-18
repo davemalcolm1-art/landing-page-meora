@@ -12,7 +12,7 @@ const pillars = [
   {
     n: "03",
     title: "Compounded & Delivered",
-    body: "All compounds prepared by a TGA-licensed compounding pharmacy and dispatched directly to your door with full cold-chain integrity.",
+    body: "All compounds prepared by a registered compounding pharmacy and dispatched directly to your door with full cold-chain integrity.",
   },
 ];
 
