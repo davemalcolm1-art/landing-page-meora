@@ -118,20 +118,19 @@ nav.rill-nav.scrolled {
 .nav-links a:hover { color: var(--cream); }
 .nav-links a:hover::after { width: 100%; }
 .nav-cta {
-  font-size: 12px; font-weight: 500;
-  letter-spacing: 0.1em; text-transform: uppercase;
-  color: var(--deep-navy);
-  background: var(--orange);
+  font-size: 15px; font-weight: 700;
+  letter-spacing: 1.4px; text-transform: uppercase;
+  color: #FFFFFF;
+  background: #E8571A;
   padding: 12px 28px;
-  border: 1px solid var(--orange); cursor: none;
-  font-family: inherit;
+  border: none; cursor: none;
+  font-family: 'DM Sans', sans-serif;
   transition: all 0.25s ease;
 }
 .nav-cta:hover {
-  background: var(--deep-navy);
-  color: var(--orange);
-  border-color: var(--orange);
-  box-shadow: 0 0 24px rgba(232,87,26,0.3);
+  background: #d44d15;
+  color: #FFFFFF;
+  box-shadow: 0 0 24px rgba(232,87,26,0.4);
 }
 
 /* HERO */
@@ -1588,9 +1587,9 @@ nav.rill-nav.scrolled {
   nav.rill-nav.scrolled { padding: 14px 20px; }
   .nav-links { display: none; }
   .nav-cta {
-    font-size: 10px;
-    letter-spacing: 0.08em;
-    padding: 10px 14px;
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    padding: 10px 18px;
     white-space: nowrap;
   }
   .hero-content { padding: 0 24px 60px; }
@@ -1865,13 +1864,13 @@ input, textarea, select, button {
 
 .nav-cta--pill {
   border-radius: var(--radius-pill) !important;
-  padding: 12px 24px;
-  font-size: 11px;
-  letter-spacing: 0.15em;
+  padding: 12px 28px;
+  font-size: 15px;
+  letter-spacing: 1.4px;
 }
 .nav-cta--pill:hover {
-  background: var(--deep-navy);
-  color: var(--orange);
+  background: #d44d15;
+  color: #FFFFFF;
 }
 
 /* HERO — waitlist variant */
@@ -2298,7 +2297,7 @@ input, textarea, select, button {
 
   nav.rill-nav { padding: 18px 20px; }
   nav.rill-nav.scrolled { padding: 14px 20px; }
-  .nav-cta--pill { padding: 10px 16px; font-size: 10px; }
+  .nav-cta--pill { padding: 10px 18px; font-size: 13px; letter-spacing: 1.2px; }
   .nav-cta { display: none; }
 
   .hero-waitlist-inner { padding: 120px 0 60px; }
@@ -2423,9 +2422,9 @@ h1, h2, h3 {
   border-radius: 999px !important;
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
-  font-size: 13px;
-  letter-spacing: 0.12em;
-  padding: 10px 20px;
+  font-size: 15px;
+  letter-spacing: 1.4px;
+  padding: 12px 28px;
   width: auto;
   text-transform: uppercase;
 }
