@@ -2423,9 +2423,9 @@ h1, h2, h3 {
   border-radius: 999px !important;
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
-  font-size: 13px;
-  letter-spacing: 0.12em;
-  padding: 10px 20px;
+  font-size: 15px;
+  letter-spacing: 1.4px;
+  padding: 12px 28px;
   width: auto;
   text-transform: uppercase;
 }
