@@ -3,10 +3,6 @@ import WaitlistForm from "./WaitlistForm";
 const Hero = () => {
   return (
     <section className="hero hero--waitlist" id="top">
-      <div className="hero-video-placeholder" aria-hidden="true">
-        <div className="video-play-indicator" />
-      </div>
-
       <div className="hero-waitlist-inner">
         <h1 className="hero-mask-wordmark" aria-label="MEORA">MEORA</h1>
 
