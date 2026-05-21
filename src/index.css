@@ -2424,3 +2424,246 @@ input, textarea, select, button {
   opacity: 0.65;
 }
 .footer-min-copy a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+
+/* ============================================
+   MEORA BRAND REDESIGN — final override layer
+   ============================================ */
+
+body { background: #1A2B35; font-family: 'DM Sans', sans-serif; }
+
+/* Global font swap */
+.hero-mask-wordmark,
+.hero h1.hero-mask-wordmark,
+.hero-tagline,
+.section-h2,
+.pillars-h2,
+.pillar-title,
+.footer-tagline-italic,
+.rill-footer--minimal .footer-logo,
+.nav-logo,
+.what-line-1, .what-line-2, .what-line-3,
+.what-stat-num,
+.protocols-heading,
+h1, h2, h3 {
+  font-family: 'Fraunces', 'Times New Roman', serif;
+}
+
+/* NAV */
+nav.rill-nav { background: #1A2B35; padding: 18px 32px; }
+nav.rill-nav.scrolled { background: #1A2B35; padding: 14px 32px; border-bottom: 1px solid rgba(255,255,255,0.06); }
+.nav-logo {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.18em;
+  color: #FFFFFF;
+}
+.nav-logo span { color: #E8571A; margin-left: 2px; }
+.nav-cta, .nav-cta--pill {
+  background: #E8571A !important;
+  color: #FFFFFF !important;
+  border: none !important;
+  border-radius: 999px !important;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  padding: 12px 22px;
+  text-transform: uppercase;
+}
+.nav-cta:hover, .nav-cta--pill:hover {
+  background: #d44d15 !important;
+  color: #FFFFFF !important;
+  box-shadow: 0 0 24px rgba(232,87,26,0.4);
+}
+
+/* HERO */
+.hero--waitlist .hero-video-placeholder {
+  background: linear-gradient(180deg, #1A2B35 0%, #243B47 60%, #2A3F50 100%);
+}
+.hero--waitlist .hero-video-placeholder::before {
+  background: radial-gradient(ellipse at 50% 30%, rgba(232,87,26,0.12) 0%, transparent 60%);
+}
+.hero-eyebrow--center span {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: #E8571A;
+  text-transform: uppercase;
+}
+.hero-eyebrow--center .hero-eyebrow-line { background: #E8571A; }
+.hero-tagline {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: clamp(36px, 5vw, 56px);
+  color: #FFFFFF;
+  letter-spacing: -0.02em;
+}
+.hero-tagline em {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 700;
+  color: #E8571A;
+}
+.hero-sub.hero-sub--center {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(255,255,255,0.65);
+  max-width: 580px;
+}
+.waitlist-label {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  color: #E8571A;
+  text-transform: uppercase;
+}
+
+/* Hero input fields */
+.waitlist-form-stack input[type="text"],
+.waitlist-form-stack input[type="email"] {
+  background: rgba(255,255,255,0.08) !important;
+  border: 1px solid rgba(255,255,255,0.15) !important;
+  border-radius: 12px !important;
+  color: #FFFFFF !important;
+  font-family: 'DM Sans', sans-serif;
+  padding: 14px 18px;
+}
+.waitlist-form-stack input::placeholder { color: rgba(255,255,255,0.4) !important; }
+.waitlist-form-stack input:focus { border-color: #E8571A !important; }
+
+/* Hero waitlist button — pill, full width */
+.waitlist-form-stack button {
+  background: #E8571A !important;
+  color: #FFFFFF !important;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  border-radius: 999px !important;
+  padding: 16px 40px !important;
+  width: 100%;
+  letter-spacing: 0.12em;
+}
+.waitlist-form-stack button:hover:not(:disabled) {
+  background: #d44d15 !important;
+  box-shadow: 0 0 32px rgba(232,87,26,0.4);
+}
+.waitlist-consent label { color: rgba(255,255,255,0.55); font-family: 'DM Sans', sans-serif; }
+.waitlist-consent a { color: #E8571A; }
+
+/* MARQUEE / TICKER */
+.marquee-strip {
+  background: #1A2B35;
+  border-top: 1px solid rgba(255,255,255,0.06);
+  border-bottom: 1px solid rgba(255,255,255,0.06);
+}
+.marquee-item {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  color: rgba(255,255,255,0.6);
+}
+.marquee-strip:hover .marquee-item { color: rgba(255,255,255,0.85); }
+.marquee-dot { color: #E8571A; }
+
+/* WHAT WE OFFER — Pillars */
+.pillars-section {
+  position: relative;
+  background:
+    radial-gradient(ellipse at 15% 50%, rgba(232,87,26,0.05) 0%, transparent 60%),
+    radial-gradient(ellipse at 85% 20%, rgba(184,210,230,0.08) 0%, transparent 55%),
+    #FAF7F2;
+  margin: 32px;
+  border-radius: 20px;
+  padding: 96px 48px;
+}
+.pillars-header .section-eyebrow span {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.15em;
+  color: #E8571A;
+}
+.pillars-header .section-eyebrow-line { background: #E8571A; }
+.pillars-h2 {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: clamp(32px, 4vw, 52px);
+  color: #1A2B35;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+.pillars-h2 em {
+  font-family: 'Fraunces', serif;
+  font-style: italic;
+  font-weight: 700;
+  color: #E8571A;
+}
+.pillars-grid { gap: 20px; }
+.pillar-card {
+  background: linear-gradient(145deg, #F5F0E8 0%, #FAF7F2 100%);
+  border-radius: 16px;
+  border: 1px solid rgba(26,43,53,0.06);
+  padding: 28px;
+  box-shadow: 0 2px 20px rgba(26,43,53,0.06);
+  display: flex;
+  flex-direction: column;
+}
+.pillar-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 32px rgba(26,43,53,0.1);
+}
+.pillar-num {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: #E8571A;
+  margin-bottom: 18px;
+}
+.pillar-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1A2B35;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+.pillar-body {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  color: rgba(26,43,53,0.6);
+}
+
+/* FOOTER */
+.rill-footer--minimal { background: #1A2B35; }
+.rill-footer--minimal .footer-logo {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.rill-footer--minimal .footer-logo span { color: #E8571A; }
+.footer-tagline-italic {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(255,255,255,0.55);
+}
+.footer-min-legal {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.7;
+  color: rgba(255,255,255,0.4);
+}
+.footer-min-copy { color: rgba(255,255,255,0.4); }
+.footer-min-copy a { color: rgba(255,255,255,0.55); }
+
+@media (max-width: 768px) {
+  .pillars-section { margin: 16px; padding: 64px 24px; }
+  .pillars-grid { grid-template-columns: 1fr; }
+}
