@@ -41,7 +41,7 @@ const Nav = () => {
         <img
           src="/meora-mark.svg"
           alt=""
-          style={{height:'1em', width:'1em', fontSize:'22px', display:'block'}}
+          style={{height:'1.6em', width:'1.6em', fontSize:'22px', display:'block'}}
         />
         <span style={{fontFamily:'"Fraunces",serif', fontWeight:700, color:'#FFFFFF', fontSize:'22px', letterSpacing:'0.08em', lineHeight:1, display:'block'}}>MEORA</span>
       </a>
