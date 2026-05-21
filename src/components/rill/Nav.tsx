@@ -39,9 +39,9 @@ const Nav = () => {
     <nav className={`rill-nav ${scrolled ? "scrolled" : ""}`}>
       <a href="#top" style={{display:'flex', alignItems:'center', gap:'10px', textDecoration:'none'}}>
         <img
-          src="https://raw.githubusercontent.com/davemalcolm1-art/v2-meora/main/public/meora-mark-orange.svg"
+          src="/meora-mark.svg"
           alt=""
-          style={{height:'22px', width:'22px'}}
+          style={{height:'1em', width:'1em', fontSize:'22px', display:'block'}}
         />
         <span style={{fontFamily:'"Fraunces",serif', fontWeight:700, color:'#FFFFFF', fontSize:'22px', letterSpacing:'0.08em', lineHeight:1, display:'block'}}>MEORA</span>
       </a>
