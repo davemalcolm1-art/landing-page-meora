@@ -153,12 +153,12 @@ nav.rill-nav.scrolled {
 /* HERO */
 .hero {
   position: relative;
-  height: 100vh;
-  min-height: 100vh;
+  height: auto;
+  min-height: auto;
   display: flex; flex-direction: column;
   justify-content: flex-end;
   overflow: hidden;
-  padding-top: 80px;
+  padding-top: 0;
   padding-bottom: 60px;
   margin-bottom: 0;
 }
@@ -1907,7 +1907,7 @@ input, textarea, select, button {
   align-items: center;
   text-align: center;
   padding: 0 24px;
-  min-height: 100vh;
+  min-height: auto;
 }
 .hero--waitlist .hero-video-placeholder { display: block; }
 .hero--waitlist .video-play-indicator { display: none; }
@@ -1920,7 +1920,7 @@ input, textarea, select, button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 0 0;
+  padding: 120px 0 60px;
 }
 
 .hero h1.hero-mask-wordmark,
@@ -2332,7 +2332,7 @@ input, textarea, select, button {
   .nav-cta--pill { padding: 10px 16px; font-size: 10px; }
   .nav-cta { display: none; }
 
-  .hero-waitlist-inner { padding: 100px 0 60px; }
+  .hero-waitlist-inner { padding: 120px 0 60px; }
   .hero-mask-wordmark { letter-spacing: 0.08em; margin-top: 20px; margin-bottom: 20px; }
   .hero-eyebrow--center span { font-size: 9px; letter-spacing: 0.2em; }
   .hero-eyebrow--center .hero-eyebrow-line { width: 20px; }
@@ -2448,13 +2448,6 @@ h1, h2, h3 {
 }
 
 /* NAV */
-.nav-logo {
-  font-family: 'Fraunces', serif;
-  font-weight: 700;
-  font-size: 22px;
-  letter-spacing: 0.18em;
-  color: #FAF7F2;
-}
 .nav-logo span { color: #E8571A; margin-left: 2px; }
 .nav-cta, .nav-cta--pill {
   background: #E8571A !important;
