@@ -1864,13 +1864,13 @@ input, textarea, select, button {
 
 .nav-cta--pill {
   border-radius: var(--radius-pill) !important;
-  padding: 12px 24px;
-  font-size: 11px;
-  letter-spacing: 0.15em;
+  padding: 12px 28px;
+  font-size: 15px;
+  letter-spacing: 1.4px;
 }
 .nav-cta--pill:hover {
-  background: var(--deep-navy);
-  color: var(--orange);
+  background: #d44d15;
+  color: #FFFFFF;
 }
 
 /* HERO — waitlist variant */
