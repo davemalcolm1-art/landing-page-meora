@@ -2081,7 +2081,7 @@ input, textarea, select, button {
 
 .waitlist-consent {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 8px;
   padding: 4px 8px 0;
   text-align: left;
@@ -2095,18 +2095,15 @@ input, textarea, select, button {
   cursor: none;
 }
 .waitlist-consent input[type="checkbox"] {
-  appearance: none;
-  -webkit-appearance: none;
+  appearance: auto;
+  -webkit-appearance: auto;
   width: 16px;
   height: 16px;
-  margin-top: 2px;
-  border: 1px solid rgba(245, 240, 232, 0.35);
-  border-radius: 3px;
-  background: transparent;
-  cursor: none;
-  flex-shrink: 0;
-  position: relative;
-  transition: all 0.2s ease;
+  min-width: 16px;
+  cursor: pointer;
+  display: inline-block;
+  visibility: visible;
+  opacity: 1;
 }
 .waitlist-consent input[type="checkbox"]:checked {
   background: var(--orange);
