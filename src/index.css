@@ -2461,9 +2461,10 @@ h1, h2, h3 {
   border-radius: 999px !important;
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 13px;
   letter-spacing: 0.12em;
-  padding: 14px 28px;
+  padding: 10px 20px;
+  width: auto;
   text-transform: uppercase;
 }
 .nav-cta:hover, .nav-cta--pill:hover {

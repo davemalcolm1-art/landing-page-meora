@@ -4,8 +4,6 @@ const Hero = () => {
   return (
     <section className="hero hero--waitlist" id="top">
       <div className="hero-waitlist-inner">
-        <h1 className="hero-mask-wordmark" aria-label="MEORA">MEORA</h1>
-
         <div className="hero-eyebrow hero-eyebrow--center reveal">
           <div className="hero-eyebrow-line"></div>
           <span>AUSTRALIAN LONGEVITY MEDICINE · DOCTOR-PRESCRIBED</span>
