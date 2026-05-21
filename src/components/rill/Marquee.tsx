@@ -1,11 +1,8 @@
 const items = [
-  "AHPRA-Registered Physicians",
+  "AHPRA Registered",
+  "Doctor Prescribed",
   "Registered Compounding Pharmacy",
-  "GH-Axis Optimisation",
-  "Metabolic Health",
-  "Cold-Chain Delivery",
-  "Telehealth, Nationwide",
-  "Personalised Blood Panels",
+  "Australia-Wide",
 ];
 
 const Marquee = () => {
