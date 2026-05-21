@@ -12,7 +12,7 @@ const pillars = [
   {
     n: "03",
     title: "Compounded & Delivered",
-    body: "All compounds prepared by a registered compounding pharmacy and dispensed only on lawful prescription. Cold-chain delivered to your door.",
+    body: "All compounds prepared by a registered compounding pharmacy and dispensed only on lawful prescription.",
   },
 ];
 
@@ -24,7 +24,7 @@ const Pillars = () => (
         <span>What we offer</span>
       </div>
       <h2 className="section-h2 pillars-h2">
-        Clinical precision.<br /><em>Human scale.</em>
+        It starts with ME.<br /><em>Longevity medicine, reimagined.</em>
       </h2>
     </div>
 

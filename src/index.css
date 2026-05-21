@@ -150,7 +150,7 @@ nav.rill-nav.scrolled {
 }
 .hero-video-placeholder {
   position: absolute; inset: 0;
-  background: linear-gradient(135deg, #001830 0%, #1A2B35 40%, #001428 100%);
+  background: #1A2B35;
   display: flex; align-items: center; justify-content: center;
 }
 .hero-video-placeholder::before {
@@ -2478,7 +2478,7 @@ nav.rill-nav.scrolled { background: #1A2B35; padding: 14px 32px; border-bottom: 
 
 /* HERO */
 .hero--waitlist .hero-video-placeholder {
-  background: linear-gradient(180deg, #1A2B35 0%, #243B47 100%);
+  background: #1A2B35;
 }
 .hero--waitlist .hero-video-placeholder::before {
   background: radial-gradient(ellipse at 50% 30%, rgba(232,87,26,0.12) 0%, transparent 60%);
