@@ -21,10 +21,10 @@ const Pillars = () => (
     <div className="pillars-header reveal">
       <div className="section-eyebrow">
         <div className="section-eyebrow-line"></div>
-        <span>What we offer</span>
+        <span>WHAT WE OFFER</span>
       </div>
       <h2 className="section-h2 pillars-h2">
-        It starts with ME.<br /><em>Longevity medicine, reimagined.</em>
+        Clinical precision.<br /><em>Human scale.</em>
       </h2>
     </div>
 
