@@ -1,8 +1,8 @@
 const items = [
-  "AHPRA Registered",
-  "Doctor Prescribed",
-  "Registered Compounding Pharmacy",
-  "Australia-Wide",
+  "AHPRA REGISTERED",
+  "DOCTOR PRESCRIBED",
+  "REGISTERED COMPOUNDING PHARMACY",
+  "AUSTRALIA-WIDE",
 ];
 
 const Marquee = () => {
