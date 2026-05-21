@@ -94,22 +94,6 @@ nav.rill-nav.scrolled {
   background: rgba(26,43,53,0.65);
   border-color: rgba(255,255,255,0.15);
 }
-.nav-logo {
-  font-family: 'Fraunces', serif;
-  font-size: 32px; font-weight: 700;
-  letter-spacing: 0.25em;
-  color: var(--cream);
-  text-decoration: none;
-}
-.nav-logo span {
-  color: var(--orange);
-  display: inline-block;
-  font-size: 1.2em;
-  line-height: 1;
-  vertical-align: middle;
-  transition: transform 0.2s ease;
-}
-.nav-logo:hover span { transform: scale(1.4); }
 .nav-links {
   display: flex; align-items: center; gap: 40px;
   list-style: none;
@@ -1603,7 +1587,6 @@ nav.rill-nav.scrolled {
   nav.rill-nav { padding: 18px 20px; gap: 12px; }
   nav.rill-nav.scrolled { padding: 14px 20px; }
   .nav-links { display: none; }
-  .nav-logo { font-size: 18px; letter-spacing: 0.18em; }
   .nav-cta {
     font-size: 10px;
     letter-spacing: 0.08em;
@@ -1859,9 +1842,6 @@ nav.rill-nav.scrolled {
 }
 
 /* Nav — soften the scrolled bar edges slightly via inner content */
-.nav-logo {
-  border-radius: var(--radius-sm);
-}
 
 /* Form inputs anywhere */
 input, textarea, select, button {
@@ -1883,13 +1863,6 @@ input, textarea, select, button {
    WAITLIST LANDING — overrides & additions
    ============================================ */
 
-/* Nav: pill CTA + dot in logo */
-.nav-logo span {
-  color: var(--orange);
-  margin-left: 4px;
-  font-size: 1em;
-  vertical-align: baseline;
-}
 .nav-cta--pill {
   border-radius: var(--radius-pill) !important;
   padding: 12px 24px;
@@ -2328,7 +2301,6 @@ input, textarea, select, button {
 
   nav.rill-nav { padding: 18px 20px; }
   nav.rill-nav.scrolled { padding: 14px 20px; }
-  .nav-logo { font-size: 18px; letter-spacing: 0.2em; }
   .nav-cta--pill { padding: 10px 16px; font-size: 10px; }
   .nav-cta { display: none; }
 
@@ -2439,7 +2411,6 @@ body { background: #FAF7F2; font-family: 'DM Sans', sans-serif; }
 .pillar-title,
 .footer-tagline-italic,
 .rill-footer--minimal .footer-logo,
-.nav-logo,
 .what-line-1, .what-line-2, .what-line-3,
 .what-stat-num,
 .protocols-heading,
@@ -2448,7 +2419,6 @@ h1, h2, h3 {
 }
 
 /* NAV */
-.nav-logo span { color: #E8571A; margin-left: 2px; }
 .nav-cta, .nav-cta--pill {
   background: #E8571A !important;
   color: #FFFFFF !important;
