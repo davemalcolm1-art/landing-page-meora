@@ -17,7 +17,7 @@ const MaskSection = () => (
             y="52%"
             textAnchor="middle"
             dominantBaseline="middle"
-            fontFamily="Cormorant Garamond, Georgia, serif"
+            fontFamily="Fraunces, Georgia, serif"
             fontSize="clamp(140px, 22vw, 280px)"
             fontWeight="600"
             letterSpacing="-0.03em"
