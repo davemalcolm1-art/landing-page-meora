@@ -38,8 +38,8 @@ const Nav = () => {
   return (
     <nav className={`rill-nav ${scrolled ? "scrolled" : ""}`}>
       <a href="#top" className="nav-logo" style={{display: 'flex', alignItems: 'center', textDecoration: 'none'}}>
-        <img src="https://raw.githubusercontent.com/davemalcolm1-art/v2-meora/main/public/meora-mark-orange.svg" alt="Meora" style={{height: '18px', width: 'auto'}} />
-        <span style={{fontFamily: '"Fraunces", serif', fontWeight: 700, color: '#FAF7F2', fontSize: '18px', letterSpacing: '0.05em', marginLeft: '10px'}}>MEORA</span>
+        <img src="https://raw.githubusercontent.com/davemalcolm1-art/v2-meora/main/public/meora-mark-orange.svg" alt="Meora" style={{height: '24px', width: 'auto', verticalAlign: 'middle'}} />
+        <span style={{fontFamily: '"Fraunces", serif', fontWeight: 700, color: '#1A2B35', fontSize: '20px', letterSpacing: '0.05em', marginLeft: '10px'}}>MEORA</span>
       </a>
       <button className="nav-cta nav-cta--pill" onClick={scrollToWaitlist}>
         Join the Waitlist

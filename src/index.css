@@ -40,8 +40,8 @@
 html { scroll-behavior: smooth; }
 
 body {
-  background: #1A2B35;
-  color: var(--cream);
+  background: #FAF7F2;
+  color: #1A2B35;
   font-family: 'DM Sans', sans-serif;
   font-weight: 300;
   line-height: 1.7;
@@ -150,18 +150,18 @@ nav.rill-nav.scrolled {
 }
 .hero-video-placeholder {
   position: absolute; inset: 0;
-  background: #1A2B35;
+  background: #FAF7F2;
   display: flex; align-items: center; justify-content: center;
 }
 .hero-video-placeholder::before {
   content: '';
   position: absolute; inset: 0;
-  background: #1A2B35;
+  background: #FAF7F2;
 }
 .hero-video-placeholder::after {
   content: '';
   position: absolute; inset: 0;
-  background: #1A2B35;
+  background: #FAF7F2;
 }
 .video-play-indicator {
   position: absolute;
@@ -182,7 +182,7 @@ nav.rill-nav.scrolled {
 }
 .hero-overlay {
   position: absolute; inset: 0;
-  background: #1A2B35;
+  background: transparent;
 }
 .hero-content {
   position: relative; z-index: 2;
@@ -263,12 +263,12 @@ nav.rill-nav.scrolled {
 .hero-scroll-hint {
   display: flex; align-items: center; gap: 10px;
   font-size: 10px; letter-spacing: 0.2em; text-transform: uppercase;
-  color: var(--text-dimmer);
+  color: rgba(26,43,53,0.4);
   font-family: 'DM Mono', monospace;
 }
 .scroll-line {
   width: 40px; height: 1px;
-  background: var(--text-dimmer);
+  background: rgba(26,43,53,0.3);
   animation: scrollPulse 2s ease-in-out infinite;
 }
 @keyframes scrollPulse {
@@ -1650,7 +1650,7 @@ nav.rill-nav.scrolled {
   z-index: 0;
 }
 .hero .hero-overlay {
-  background: #1A2B35;
+  background: transparent;
   z-index: 1;
 }
 
@@ -1755,12 +1755,12 @@ nav.rill-nav.scrolled {
 .mask-fade-top {
   position: absolute; top: 0; left: 0; right: 0;
   height: 40px; z-index: 3; pointer-events: none;
-  background: linear-gradient(to bottom, #1A2B35 0%, transparent 100%);
+  background: linear-gradient(to bottom, #FAF7F2 0%, transparent 100%);
 }
 .mask-fade-bottom {
   position: absolute; bottom: 0; left: 0; right: 0;
   height: 60px; z-index: 3; pointer-events: none;
-  background: linear-gradient(to top, #1A2B35 0%, transparent 100%);
+  background: linear-gradient(to top, #FAF7F2 0%, transparent 100%);
 }
 .mask-label {
   position: absolute; bottom: 24px; left: 0; right: 0;
@@ -2422,7 +2422,7 @@ input, textarea, select, button {
    MEORA BRAND REDESIGN — final override layer
    ============================================ */
 
-body { background: #1A2B35; font-family: 'DM Sans', sans-serif; }
+body { background: #FAF7F2; font-family: 'DM Sans', sans-serif; }
 
 /* Global font swap */
 .hero-mask-wordmark,
@@ -2442,14 +2442,14 @@ h1, h2, h3 {
 }
 
 /* NAV */
-nav.rill-nav { background: #1A2B35; padding: 18px 32px; }
-nav.rill-nav.scrolled { background: #1A2B35; padding: 14px 32px; border-bottom: 1px solid rgba(255,255,255,0.06); }
+nav.rill-nav { background: rgba(26,43,53,0.85); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); padding: 18px 32px; }
+nav.rill-nav.scrolled { background: rgba(26,43,53,0.85); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); padding: 14px 32px; border-bottom: 1px solid rgba(255,255,255,0.06); }
 .nav-logo {
   font-family: 'Fraunces', serif;
   font-weight: 700;
   font-size: 22px;
   letter-spacing: 0.18em;
-  color: #FFFFFF;
+  color: #FAF7F2;
 }
 .nav-logo span { color: #E8571A; margin-left: 2px; }
 .nav-cta, .nav-cta--pill {
@@ -2471,10 +2471,10 @@ nav.rill-nav.scrolled { background: #1A2B35; padding: 14px 32px; border-bottom: 
 
 /* HERO */
 .hero--waitlist .hero-video-placeholder {
-  background: #1A2B35;
+  background: #FAF7F2;
 }
 .hero--waitlist .hero-video-placeholder::before {
-  background: #1A2B35;
+  background: #FAF7F2;
 }
 .hero-eyebrow--center span {
   font-family: 'DM Sans', sans-serif;
@@ -2489,7 +2489,7 @@ nav.rill-nav.scrolled { background: #1A2B35; padding: 14px 32px; border-bottom: 
   font-family: 'Fraunces', serif;
   font-weight: 700;
   font-size: clamp(36px, 5vw, 56px);
-  color: #FFFFFF;
+  color: #1A2B35;
   letter-spacing: -0.02em;
 }
 .hero-tagline em {
@@ -2502,7 +2502,7 @@ nav.rill-nav.scrolled { background: #1A2B35; padding: 14px 32px; border-bottom: 
   font-family: 'DM Sans', sans-serif;
   font-weight: 400;
   font-size: 16px;
-  color: rgba(255,255,255,0.65);
+  color: rgba(26,43,53,0.65);
   max-width: 580px;
 }
 .waitlist-label {
@@ -2517,14 +2517,14 @@ nav.rill-nav.scrolled { background: #1A2B35; padding: 14px 32px; border-bottom: 
 /* Hero input fields */
 .waitlist-form-stack input[type="text"],
 .waitlist-form-stack input[type="email"] {
-  background: rgba(255,255,255,0.08) !important;
-  border: 1px solid rgba(255,255,255,0.15) !important;
+  background: rgba(26,43,53,0.06) !important;
+  border: 1px solid rgba(26,43,53,0.15) !important;
   border-radius: 12px !important;
-  color: #FFFFFF !important;
+  color: #1A2B35 !important;
   font-family: 'DM Sans', sans-serif;
   padding: 14px 18px;
 }
-.waitlist-form-stack input::placeholder { color: rgba(255,255,255,0.4) !important; }
+.waitlist-form-stack input::placeholder { color: rgba(26,43,53,0.4) !important; }
 .waitlist-form-stack input:focus { border-color: #E8571A !important; }
 
 /* Hero waitlist button — pill, full width */
@@ -2542,7 +2542,7 @@ nav.rill-nav.scrolled { background: #1A2B35; padding: 14px 32px; border-bottom: 
   background: #d44d15 !important;
   box-shadow: 0 0 32px rgba(232,87,26,0.4);
 }
-.waitlist-consent label { color: rgba(255,255,255,0.55); font-family: 'DM Sans', sans-serif; }
+.waitlist-consent label { color: rgba(26,43,53,0.55); font-family: 'DM Sans', sans-serif; }
 .waitlist-consent a { color: #E8571A; }
 
 /* MARQUEE / TICKER */
