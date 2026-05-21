@@ -71,16 +71,28 @@ body {
 
 /* NAV */
 nav.rill-nav {
-  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  display: flex; align-items: center; justify-content: space-between;
-  padding: 28px 60px;
-  transition: background 0.4s ease, padding 0.3s ease;
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100vw - 80px);
+  max-width: 1280px;
+  height: 56px;
+  border-radius: 14px;
+  background: rgba(10,10,10,0.35);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 28px;
+  z-index: 1000;
+  box-sizing: border-box;
 }
 nav.rill-nav.scrolled {
-  background: rgba(0,18,42,0.96);
-  backdrop-filter: blur(20px);
-  padding: 18px 60px;
-  border-bottom: 0.5px solid rgba(245,240,232,0.1);
+  background: rgba(10,10,10,0.55);
+  border-color: rgba(255,255,255,0.15);
 }
 .nav-logo {
   font-family: 'Fraunces', serif;
@@ -1752,16 +1764,8 @@ nav.rill-nav.scrolled {
   width: 100%; height: 100%;
   pointer-events: none;
 }
-.mask-fade-top {
-  position: absolute; top: 0; left: 0; right: 0;
-  height: 40px; z-index: 3; pointer-events: none;
-  background: linear-gradient(to bottom, #FAF7F2 0%, transparent 100%);
-}
-.mask-fade-bottom {
-  position: absolute; bottom: 0; left: 0; right: 0;
-  height: 60px; z-index: 3; pointer-events: none;
-  background: linear-gradient(to top, #FAF7F2 0%, transparent 100%);
-}
+.mask-fade-top { display: none; }
+.mask-fade-bottom { display: none; }
 .mask-label {
   position: absolute; bottom: 24px; left: 0; right: 0;
   text-align: center;
@@ -2442,8 +2446,6 @@ h1, h2, h3 {
 }
 
 /* NAV */
-nav.rill-nav { background: rgba(26,43,53,0.85); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); padding: 18px 32px; }
-nav.rill-nav.scrolled { background: rgba(26,43,53,0.85); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); padding: 14px 32px; border-bottom: 1px solid rgba(255,255,255,0.06); }
 .nav-logo {
   font-family: 'Fraunces', serif;
   font-weight: 700;
