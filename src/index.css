@@ -2301,7 +2301,19 @@ input, textarea, select, button {
   .nav-cta { display: none; }
 
   .hero-waitlist-inner { padding: 120px 0 60px; }
-  .hero-mask-wordmark { font-size: clamp(56px, 16vw, 120px) !important; letter-spacing: 0.02em; margin-top: 20px; margin-bottom: 20px; padding: 0 16px; box-sizing: border-box; }
+  .hero-mask-wordmark,
+  .hero h1.hero-mask-wordmark {
+    font-size: 14vw !important;
+    letter-spacing: 0.02em !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px !important;
+    box-sizing: border-box !important;
+    width: 100% !important;
+    max-width: 100vw !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+  }
   .hero-eyebrow--center span { font-size: 9px; letter-spacing: 0.2em; }
   .hero-eyebrow--center .hero-eyebrow-line { width: 20px; }
 
