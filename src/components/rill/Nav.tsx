@@ -39,7 +39,7 @@ const Nav = () => {
     <nav className={`rill-nav ${scrolled ? "scrolled" : ""}`}>
       <a href="#top" style={{display:'flex', alignItems:'center', gap:'10px', textDecoration:'none'}}>
         <img
-          src="/meora-mark.svg"
+          src="/meora-mark.png"
           alt=""
           style={{height:'1.6em', width:'1.6em', fontSize:'22px', display:'block'}}
         />
