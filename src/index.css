@@ -118,20 +118,19 @@ nav.rill-nav.scrolled {
 .nav-links a:hover { color: var(--cream); }
 .nav-links a:hover::after { width: 100%; }
 .nav-cta {
-  font-size: 12px; font-weight: 500;
-  letter-spacing: 0.1em; text-transform: uppercase;
-  color: var(--deep-navy);
-  background: var(--orange);
+  font-size: 15px; font-weight: 700;
+  letter-spacing: 1.4px; text-transform: uppercase;
+  color: #FFFFFF;
+  background: #E8571A;
   padding: 12px 28px;
-  border: 1px solid var(--orange); cursor: none;
-  font-family: inherit;
+  border: none; cursor: none;
+  font-family: 'DM Sans', sans-serif;
   transition: all 0.25s ease;
 }
 .nav-cta:hover {
-  background: var(--deep-navy);
-  color: var(--orange);
-  border-color: var(--orange);
-  box-shadow: 0 0 24px rgba(232,87,26,0.3);
+  background: #d44d15;
+  color: #FFFFFF;
+  box-shadow: 0 0 24px rgba(232,87,26,0.4);
 }
 
 /* HERO */
