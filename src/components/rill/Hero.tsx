@@ -17,7 +17,7 @@ const Hero = () => {
         </div>
 
         <h2 className="hero-tagline reveal reveal-delay-1">
-          Built by science.<br /><em>Made for ME.</em>
+          Doctor-prescribed protocols.<br /><em>Made for you.</em>
         </h2>
 
         <p className="hero-sub hero-sub--center reveal reveal-delay-2">

@@ -2602,6 +2602,7 @@ nav.rill-nav.scrolled { background: #1A2B35; padding: 14px 32px; border-bottom: 
   color: #E8571A;
 }
 .pillars-grid { gap: 20px; }
+.pillars-section .reveal { opacity: 1; transform: none; }
 .pillar-card {
   background: linear-gradient(145deg, #F5F0E8 0%, #FAF7F2 100%);
   border-radius: 16px;
