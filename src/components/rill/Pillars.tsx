@@ -2,17 +2,17 @@ const pillars = [
   {
     n: "01",
     title: "Clinical Protocols",
-    body: "Evidence-based therapy programs designed and overseen by AHPRA-registered physicians, personalised to your biology and health goals.",
+    body: "Doctor-prescribed protocols developed by AHPRA-registered doctors and guided by your individual health assessment.",
   },
   {
     n: "02",
     title: "Telehealth, Nationwide",
-    body: "Consult from anywhere in Australia. Full clinical assessment, blood panel review, and ongoing doctor support — no waiting rooms, no referrals.",
+    body: "Consult from anywhere in Australia. Full clinical assessment and ongoing doctor support — no waiting rooms, no referrals required.",
   },
   {
     n: "03",
     title: "Compounded & Delivered",
-    body: "All compounds prepared by a registered compounding pharmacy and dispatched directly to your door with full cold-chain integrity.",
+    body: "All compounds prepared by a registered compounding pharmacy and dispensed only on lawful prescription. Cold-chain delivered to your door.",
   },
 ];
 
