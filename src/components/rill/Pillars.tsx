@@ -7,7 +7,7 @@ const pillars = [
   {
     n: "02",
     title: "Telehealth, Nationwide",
-    body: "Consult from anywhere in Australia. Full clinical assessment and ongoing doctor support — no waiting rooms, no referrals required.",
+    body: "Meora supports remote consultations with registered Australian medical practitioners for eligible adults across Australia.",
   },
   {
     n: "03",
