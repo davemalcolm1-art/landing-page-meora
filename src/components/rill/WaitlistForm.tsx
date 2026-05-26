@@ -95,7 +95,7 @@ const WaitlistForm = ({ source, variant = "dark" }: Props) => {
           onChange={(e) => setConsent(e.target.checked)}
         />
         <label htmlFor={`consent-${source}`}>
-          I agree to receive updates from Meora. View our{" "}
+          I agree to receive launch updates and marketing from Meora. I understand that this waitlist is not a medical consultation or request for treatment and joining does not guarentee eligibility.<br />View our{" "}
           <a href="/privacy" target="_blank" rel="noreferrer">
             Privacy Policy
           </a>

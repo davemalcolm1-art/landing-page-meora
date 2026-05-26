@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="hero-waitlist-inner">
         <div className="hero-eyebrow hero-eyebrow--center reveal">
           <div className="hero-eyebrow-line"></div>
-          <span>AUSTRALIAN LONGEVITY MEDICINE · DOCTOR-PRESCRIBED</span>
+          <span>AUSTRALIAN LONGEVITY HEALTH · CLINICIAN LED</span>
           <div className="hero-eyebrow-line"></div>
         </div>
 
@@ -15,7 +15,7 @@ const Hero = () => {
         </h2>
 
         <p className="hero-sub hero-sub--center reveal reveal-delay-2">
-          Doctor-prescribed peptide protocols for energy, recovery and long-term health. Available anywhere in Australia.
+          A new Australian telehealth experience for peronalised health assesment, clinical guidance and long-term wellbeing planning.
         </p>
 
         <div className="hero-waitlist reveal reveal-delay-3" id="waitlist">
