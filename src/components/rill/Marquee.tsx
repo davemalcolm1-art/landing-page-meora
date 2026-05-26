@@ -1,8 +1,7 @@
 const items = [
-  "REGISTERED PRACTICIONERS",
-  "DOCTOR PRESCRIBED",
-  "REGISTERED COMPOUNDING PHARMACY",
-  "AUSTRALIA-WIDE",
+  "Telehelath Consultations",
+  "Registereds Practicioner",
+  "Individual Assesments",
 ];
 
 const Marquee = () => {
