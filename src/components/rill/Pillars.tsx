@@ -1,8 +1,8 @@
 const pillars = [
   {
     n: "01",
-    title: "Clinical Protocols",
-    body: "Doctor-prescribed protocols developed by AHPRA-registered doctors and guided by your individual health assessment.",
+    title: "Clinician-Guided Pathways",
+    body: "Your pathway starts with an individual health assessment and a consultation with a registered Australian medical practitioner.",
   },
   {
     n: "02",
