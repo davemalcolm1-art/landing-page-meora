@@ -2080,7 +2080,7 @@ input, textarea, select, button {
 
 .waitlist-consent {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 8px;
   padding: 4px 8px 0;
   text-align: left;
