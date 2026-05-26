@@ -11,8 +11,8 @@ const pillars = [
   },
   {
     n: "03",
-    title: "Compounded & Delivered",
-    body: "All compounds prepared by a registered compounding pharmacy and dispensed only on lawful prescription.",
+    title: "Prescription Fulfilment",
+    body: "Where treatment is prescribed after consultation, Meora helps coordinate fulfilment through an Australian pharmacy partner.",
   },
 ];
 
