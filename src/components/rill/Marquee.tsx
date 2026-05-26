@@ -1,7 +1,10 @@
 const items = [
-  "Telehelath Consultations",
-  "Registereds Practicioner",
-  "Individual Assesments",
+  "Telehealth Consultations",
+  "Registered Practitioners",
+  "Clinical Guidance",
+  "Secure Intake",
+  "Individual Assessments",
+  "Australia Wide",
 ];
 
 const Marquee = () => {
