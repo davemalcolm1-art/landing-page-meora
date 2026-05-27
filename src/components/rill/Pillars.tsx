@@ -24,7 +24,7 @@ const Pillars = () => (
         <span>WHAT WE OFFER</span>
       </div>
       <h2 className="section-h2 pillars-h2">
-        Personalised longevity, clinically guided.
+        Personalised longevity, <em>clinically guided</em>.
       </h2>
     </div>
 
