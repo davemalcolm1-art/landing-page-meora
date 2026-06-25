@@ -15,7 +15,7 @@ const Hero = () => {
         </h2>
 
         <p className="hero-sub hero-sub--center reveal reveal-delay-2">
-          A new Australian telehealth experience for peronalised health assesment, clinical guidance and long-term wellbeing planning.
+          A new Australian telehealth experience for personalised health assessment, clinical guidance and long-term wellbeing planning.
         </p>
 
         <div className="hero-waitlist reveal reveal-delay-3" id="waitlist">
